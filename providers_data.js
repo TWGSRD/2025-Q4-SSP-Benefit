@@ -8,7 +8,7 @@ const providers = [
         phone: "0905108893",
         email: "jonathan@az-helper.com",
         logo: "AZ-Helper.png",
-        discount_image: "AZ-Helper.png",
+        discount_image: "AZ-Helper _商標&VAT.png",
         qr_code: "AZ-Helper APP QRCODE - Jonathan Lee.png"
     },
     // 2. 秩宇 Wiser - 品牌素材製作
@@ -23,7 +23,7 @@ const providers = [
         line_id: "@viewec",
         email: "stella@wwwiser.com.tw",
         logo: "秩宇_logotype_全橫式 - View EC(1).png",
-        discount_image: "秩宇 Wiser.png",
+        discount_image: "秩宇 Wiser_品牌素材製作.png",
         qr_code: "視宇集團_秩宇 - View EC.png"
     },
     // 3. AZ-Helper - 商標申請
@@ -35,7 +35,7 @@ const providers = [
         phone: "0905108893",
         email: "jonathan@az-helper.com",
         logo: "AZ-Helper.png",
-        discount_image: "AZ-Helper.png",
+        discount_image: "AZ-Helper _商標&VAT.png",
         qr_code: "AZ-Helper APP QRCODE - Jonathan Lee.png"
     },
     // 4. 博智衛好智權有限公司 - 商標申請
@@ -74,7 +74,7 @@ const providers = [
         line_id: "a93324u",
         email: "stella@wwwiser.com.tw",
         logo: "秩宇_logotype_全橫式 - View EC(1).png",
-        discount_image: "秩宇Wiser.png",
+        discount_image: "秩宇 Wiser_廣告優化.png",
         qr_code: "視宇集團_秩宇 - View EC.png"
     },
     // 7. 全球賣跨境電商 - 廣告優化
@@ -113,7 +113,7 @@ const providers = [
         line_id: "8166826864",
         email: "bryan@gladstonefulfillment.com",
         logo: "Gladstone.jpg",
-        discount_image: "Gladstone Fulfillment, Inc..png"
+        discount_image: "Gladstone Fulfillment_2025 Q4旺季衝刺優惠專案 - Bryan Chou.jpg"
     },
     // 10. Odin跨境電商運營 - 營運顧問
     {
@@ -138,7 +138,7 @@ const providers = [
         phone: "0903332591",
         email: "nomadfriends@gmail.com",
         logo: "游牧電商 Logo - 張Wendy(1).png",
-        discount_image: "奕昕國際有限公司(游牧電商).png",
+        discount_image: "奕昕國際有限公司-游牧電商_營運顧問.jpg",
         qr_code: "奕昕國際官網 (游牧電商)QRcode - 張Wendy.png"
     },
     // 12. 傑地有限公司 - 產品合規
@@ -166,7 +166,8 @@ const providers = [
         line_id: "lindawu1969",
         email: "lindawu1969@gmail.com",
         logo: "靈志科技 Logo - 吳亭萱(1).png",
-        discount_image: "靈志科技有限公司.png"
+        discount_image: "靈志科技有限公司1.jpg",
+        discount_image2: "靈志科技有限公司2.jpg"
     },
     // 14. AZ-Helper - 第三方培訓課程
     {
@@ -178,7 +179,7 @@ const providers = [
         line_id: "tiamojon",
         email: "jonathan@az-helper.com",
         logo: "AZ-Helper.png",
-        discount_image: "AZ-Helper.png"
+        discount_image: "AZ-Helper_第三方培訓課程.png"
     },
     // 15. TransBiz - 第三方工具軟體
     {
@@ -205,7 +206,7 @@ const providers = [
         line_id: "tiamojon",
         email: "jonathan@az-helper.com",
         logo: "AZ-Helper.png",
-        discount_image: "AZ-Helper.png",
+        discount_image: "AZ_Helper_第三方工具軟體.png",
         qr_code: "AZ-Helper APP QRCODE - Jonathan Lee.png"
     },
     // 17. SellerBoard - 第三方工具軟體
@@ -228,7 +229,7 @@ const providers = [
         phone: "0905108893",
         email: "jonathan@az-helper.com",
         logo: "賣家精靈 白字橘底 - Jonathan Lee.png",
-        discount_image: "賣家精靈.png"
+        discount_image: "SellerSprite.png"
     },
     // 19. 金匯國際物流 - 跨境物流
     {
@@ -255,7 +256,7 @@ const providers = [
         phone: "0930889145",
         line_id: "victory10052",
         email: "eason.chiang@dolphin-gp.com",
-        discount_image: "萬泰物流供應鏈股份有限公司.png",
+        discount_image: "萬泰2025高峰會LOGO淺 - 江仁凱.jpg",
         qr_code: "萬泰物流.jpg"
     },
     // 21. 台灣順豐速運 - 跨境物流
@@ -270,7 +271,7 @@ const providers = [
         line_id: "andre5233",
         email: "andrehsu@sf-express.com.tw",
         logo: "台灣順豐速運LOGO繁體(去背) - ANDRE HSU.png",
-        discount_image: "台灣順豐速運.png"
+        discount_image: "台灣順豐速運 - ANDRE HSU.jpg"
     },
     // 22. Payoneer - 金流服務
     {
@@ -309,6 +310,7 @@ const providers = [
         website: "https://essentialmarketing.com.tw/",
         phone: "0903332591",
         email: "nomadfriends@gmail.com",
-        logo: "游牧電商 Logo - 張Wendy(1).png"
+        logo: "游牧電商 Logo - 張Wendy(1).png",
+        discount_image: "奕昕國際有限公司-游牧電商_品牌素材製作.jpg"
     }
 ];
