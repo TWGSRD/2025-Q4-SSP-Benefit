@@ -103,13 +103,13 @@ const providers = [
     },
     // 9. Gladstone Fulfillment, Inc. - 海外倉
     {
-        name: "Bryan Chou",
+        name: "Judy",
         company: "Gladstone Fulfillment, Inc.",
         service_type: "海外倉",
         offer_description: "新客戶優惠方案 : 免除初始帳戶註冊費用(價值$300 USD) 以及第一個月倉儲費用減免",
         company_intro: "Gladstone Fulfillment Inc. 位於美國加州洛杉磯地區，提供倉儲、訂單處理、備貨出貨、中轉與供應鏈整合服務。  服務相目包括物流倉儲、Amazon FBA/AWD貨物中轉、FBM一件代發，支援B2B、B2C、電商等多元出貨模式。  無論是跨境電商物流、外包倉儲物流、供應鏈管理，我們的團隊具備能力和靈活性，可以滿足任何的海外倉儲物流需求。",
         website: "www.GladstoneFulfillment.com/zh",
-        phone: "909-235-6253",
+        phone: "0958-652-960",
         line_id: "8166826864",
         email: "bryan@gladstonefulfillment.com",
         logo: "Gladstone.jpg",
@@ -183,15 +183,15 @@ const providers = [
     },
     // 15. TransBiz - 第三方工具軟體
     {
-        name: "Doris",
+        name: "Sean",
         company: "TransBiz",
         service_type: "第三方工具軟體",
         offer_description: "AI競品評論工具免費使用：https://jtbd.transbiz.com.tw",
         company_intro: "台灣第一間亞馬遜服務商、最多破億營收客戶案例。以精實創業的陪跑顧問與專家教練，讓想建立跨境事業的你，以相對低成本驗證市場、破除文化阻礙，塑造符合當地市場需求的品牌形象與價值，打造熱銷全球的品牌！",
         website: "https://transbiz.com.tw",
-        phone: "0932202623",
+        phone: "0932999788",
         line_id: "@transbiz",
-        email: "dorislin@transbiz.co",
+        email: "seanhsiang@transbiz.co",
         logo: "transbiz logo 500x500 square - Doris Lin.png",
         qr_code: "TransBiz-LINE-QR - Doris Lin.png"
     },
@@ -236,7 +236,7 @@ const providers = [
         name: "Linda Tsai",
         company: "金匯國際物流",
         service_type: "跨境物流",
-        offer_description: "日本海運/歐洲海運方案: 折扣 新台幣$2,000/票\n不限新舊客, 限使用一次\n\n日本亞馬遜免ACP節稅方案\n新台幣$25,800/首CBM\n新台幣$4,000/續CBM\n\n澳洲亞馬遜空運方案門到門專案價:\n重量級距          報價\n70KG+      新台幣$279/KG\n100KG+   新台幣$239/KG\n150KG+   新台幣$209/KG\n200KG+   新台幣$99/KG\n250KG+   新台幣$189/KG\n\n澳洲亞馬遜海運方案門到門專案價:\n新台幣$20,800/首CBM\n新台幣$7,000/續CBM",
+        offer_description: "日本海運/歐洲海運方案: 折扣 新台幣$2,000/票\n不限新舊客, 限使用一次\n\n日本亞馬遜免ACP節稅方案\n新台幣$25,800/首CBM\n新台幣$4,000/續CBM\n\n澳洲亞馬遜空運方案門到門專案價:\n重量級距          報價\n70KG+      新台幣$279/KG\n100KG+   新台幣$239/KG\n150KG+   新台幣$209/KG\n200KG+   新台幣$99/KG\n250KG+   新台幣$89/KG\n\n澳洲亞馬遜海運方案門到門專案價:\n新台幣$20,800/首CBM\n新台幣$7,000/續CBM",
         company_intro: "金匯國際物流股專注於跨境物流整合方案，致力於以數位化工具重塑物流體驗，我們的服務涵蓋美國、日本、澳洲與歐洲，提供多元運輸服務與海外倉儲加值服務，協助品牌精準佈局國際市場。",
         website: "https://shipprime.com.tw/",
         phone: "0955321429",
