@@ -278,7 +278,7 @@ const providers = [
         name: "Lucas",
         company: "Payoneer",
         service_type: "金流服務",
-        offer_description: "亞馬遜廣告費刷卡返利加碼 20%活動 (2025/10/1-2025/12/31) \\ni. Payoneer隨心付新用戶：沒有申辦過 Payoneer隨心卡的高級別的VIP管理賣家 (月廣告費 USD 20,000 以上\\nii. Payoneer隨心付現有用戶：高消費商戶可聯繫客戶經理訂製方案\\n\\n請填寫表單開通優惠: https://reurl.cc/OmKrgr",
+        offer_description: "亞馬遜廣告費刷卡返利加碼 20%活動 (2025/10/1-2025/12/31)\\ni. Payoneer隨心付新用戶：沒有申辦過 Payoneer隨心卡的高級別的VIP管理賣家 (月廣告費 USD 20,000 以上)\\nii. Payoneer隨心付現有用戶：高消費商戶可聯繫客戶經理訂製方案\\n\\n請填寫表單開通優惠: https://reurl.cc/OmKrgr",
         company_intro: "Payoneer（NASDAQ: PAYO）成立於2005年，總部位於美國紐約，是全球領先的跨境支付平台。 服務涵蓋190+國家與地區、150+幣別，提供電商賣家、自由工作者與企業多幣別收款帳戶、供應商付款、跨境轉帳及Mastercard卡片。Payoneer以合規安全、費率透明與操作便利著稱，協助用戶降低跨境金流成本並提升全球業務效率。",
         website: "payoneer.com",
         phone: "0909604190",

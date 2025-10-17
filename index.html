@@ -475,9 +475,12 @@
                 qrCodeHtml = `<img src="${qrCodePath}" alt="聯繫 QR Code" class="qr-code">`;
             }
             
-            // 將優惠描述中的網址轉換為超連結
+            // 將優惠描述中的換行和網址轉換為HTML格式
             let offerDescription = provider.offer_description;
             if (offerDescription) {
+                // 先處理換行符號
+                offerDescription = offerDescription.replace(/\\n/g, '<br>').replace(/\n/g, '<br>');
+                // 再處理網址轉換為超連結
                 offerDescription = offerDescription.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" style="color: #FF6200;">$1</a>');
             }
             
