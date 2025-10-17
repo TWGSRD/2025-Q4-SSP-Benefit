@@ -164,7 +164,7 @@ const providers = [
         website: "chancesight.com",
         phone: "0960197960",
         line_id: "lindawu1969",
-        email: "lindawu1969@gmail.com",
+        email: "lindawu1969@gmail.com, lindawu@chancevideos.com",
         logo: "靈志科技 Logo - 吳亭萱(1).png",
         discount_image: "靈志科技有限公司1.jpg",
         discount_image2: "靈志科技有限公司2.jpg"
