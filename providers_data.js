@@ -312,5 +312,33 @@ const providers = [
         email: "nomadfriends@gmail.com",
         logo: "游牧電商 Logo - 張Wendy(1).png",
         discount_image: "奕昕國際有限公司-游牧電商_品牌素材製作.jpg"
+    },
+    // 25. DRS - 第三方工具軟體
+    {
+        name: "DRS Team",
+        company: "DRS 跨境電商整合服務",
+        service_type: "第三方工具軟體",
+        offer_description: "DRS工具軟體優惠方案：專業跨境電商工具軟體，提供全方位數據分析與營運支援。",
+        company_intro: "DRS 跨境電商整合服務專注於為跨境電商賣家提供專業的工具軟體解決方案，協助賣家提升營運效率與銷售表現。",
+        website: "",
+        phone: "",
+        line_id: "",
+        email: "",
+        logo: "DRS 跨境電商整合服務.png",
+        discount_image: "DRS_工具.jpg"
+    },
+    // 26. DRS - 廣告優化
+    {
+        name: "DRS Team",
+        company: "DRS 跨境電商整合服務",
+        service_type: "廣告優化",
+        offer_description: "DRS廣告優化服務：專業的亞馬遜廣告優化服務，提升廣告效果與ROI表現。",
+        company_intro: "DRS 跨境電商整合服務專注於為跨境電商賣家提供專業的廣告優化服務，協助賣家提升廣告投資回報率。",
+        website: "",
+        phone: "",
+        line_id: "",
+        email: "",
+        logo: "DRS 跨境電商整合服務.png",
+        discount_image: "DRS廣告優化.jpg"
     }
 ];
