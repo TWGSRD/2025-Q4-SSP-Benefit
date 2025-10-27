@@ -508,9 +508,9 @@
                 <div class="contact-section">
                     <div class="contact-title">📞 聯繫方式</div>
                     <div class="contact-info">👤 姓名：${provider.name}</div>
-                    ${provider.email ? `<div class="contact-info">📧 Email：<a href="mailto:${provider.email}" style="color: #FF6200;">${provider.email}</a></div>` : ''}
-                    ${provider.phone ? `<div class="contact-info">📱 手機：${provider.phone}</div>` : ''}
-                    ${provider.line_id ? `<div class="contact-info">💬 LINE ID：${provider.line_id}</div>` : ''}
+                    ${provider.email ? `<div class="contact-info">📧 Email：<a href="mailto:${provider.email}" style="color: #FF6200;" onclick="trackContact('${provider.company}', 'email')">${provider.email}</a></div>` : ''}
+                    ${provider.phone ? `<div class="contact-info">📱 手機：<span onclick="trackContact('${provider.company}', 'phone')" style="cursor: pointer;">${provider.phone}</span></div>` : ''}
+                    ${provider.line_id ? `<div class="contact-info">💬 LINE ID：<span onclick="trackContact('${provider.company}', 'line')" style="cursor: pointer;">${provider.line_id}</span></div>` : ''}
                     ${qrCodeHtml}
                 </div>
                 
@@ -518,7 +518,7 @@
                 <div class="company-intro">
                     <strong>🏢 公司介紹：</strong><br>
                     ${provider.company_intro}
-                    ${provider.website ? `<br><br>🌐 官網：<a href="${provider.website.startsWith('http') ? provider.website : 'https://' + provider.website}" target="_blank" style="color: #FF6200;">${provider.website}</a>` : ''}
+                    ${provider.website ? `<br><br>🌐 官網：<a href="${provider.website.startsWith('http') ? provider.website : 'https://' + provider.website}" target="_blank" style="color: #FF6200;" onclick="trackContact('${provider.company}', 'website')">${provider.website}</a>` : ''}
                 </div>
                 ` : ''}
                 
@@ -530,6 +530,16 @@
             `;
             
             return card;
+        }
+
+        // GA事件追蹤函數
+        function trackContact(providerName, contactType) {
+            gtag('event', 'contact_provider', {
+                'provider_name': providerName,
+                'contact_type': contactType,
+                'event_category': 'engagement',
+                'page_type': 'q4_ssp_benefits'
+            });
         }
 
         function openImageModal(imageSrc) {
