@@ -315,29 +315,29 @@ const providers = [
     },
     // 25. DRS - 第三方工具軟體
     {
-        name: "DRS Team",
+        name: "Jinny Chen",
         company: "DRS 跨境電商整合服務",
         service_type: "第三方工具軟體",
         offer_description: "DRS工具軟體優惠方案：專業跨境電商工具軟體，提供全方位數據分析與營運支援。",
         company_intro: "DRS 跨境電商整合服務專注於為跨境電商賣家提供專業的工具軟體解決方案，協助賣家提升營運效率與銷售表現。",
-        website: "",
-        phone: "",
+        website: "https://www.drs.network/",
+        phone: "02-2837-8995",
         line_id: "",
-        email: "",
+        email: "info@tw.drs.network",
         logo: "DRS 跨境電商整合服務.png",
         discount_image: "DRS_工具.jpg"
     },
     // 26. DRS - 廣告優化
     {
-        name: "DRS Team",
+        name: "Jinny Chen",
         company: "DRS 跨境電商整合服務",
         service_type: "廣告優化",
         offer_description: "DRS廣告優化服務：專業的亞馬遜廣告優化服務，提升廣告效果與ROI表現。",
         company_intro: "DRS 跨境電商整合服務專注於為跨境電商賣家提供專業的廣告優化服務，協助賣家提升廣告投資回報率。",
-        website: "",
-        phone: "",
+        website: "https://www.drs.network/",
+        phone: "02-2837-8995",
         line_id: "",
-        email: "",
+        email: "info@tw.drs.network",
         logo: "DRS 跨境電商整合服務.png",
         discount_image: "DRS廣告優化.jpg"
     }
